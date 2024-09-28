@@ -5,4 +5,4 @@ a = float(input("a: "))
 b = float(input("b: "))
 c = float(input("c: "))
 
-print(discriminant(a, b, c))   
+print(discriminant(a, b, c))
