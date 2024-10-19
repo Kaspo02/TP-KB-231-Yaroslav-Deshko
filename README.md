@@ -8,6 +8,6 @@ add solution for task1, task2 and task3
 add folder topic_02
 add solution for task1, task2 and task3
 
-# 2024-10-10
+# 2024-10-11
 add folder topic_3
 add solution for task1, task2, task3 and task4
