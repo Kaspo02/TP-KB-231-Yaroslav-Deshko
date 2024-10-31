@@ -74,8 +74,8 @@ def updateElement():
 
 def main():
     while True:
-        choise = input("Please specify the action [ C create, U update, D delete, P print,  X exit ] ")
-        match choise:
+        choice = input("Please specify the action [ C create, U update, D delete, P print,  X exit ] ")
+        match choice:
             case "C" | "c":
                 print("New element will be created:")
                 addNewElement()
@@ -95,7 +95,7 @@ def main():
                 print("Exit()")
                 break
             case _:
-                print("Wrong choise")
+                print("Wrong choice")
 
 
 main()
