@@ -9,10 +9,7 @@ def calculator(opr: str):
             return mul(a, b)
         case "/":
             return div(a, b)
-        case _:
-            return "Invalid operation"
-        
-        
+
 def enterNum():
     try:
         a = input("a: ")
