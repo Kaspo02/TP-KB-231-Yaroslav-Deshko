@@ -37,7 +37,7 @@ def deleteElement(pos:int = None):
     if pos != None:
         del students[pos]
         return
-    name = input("Please enter name to be delated: ")
+    name = input("Please enter name to be deleted: ")
     deletePosition = -1
     for item in students:
         if name == item["name"]:
@@ -74,8 +74,8 @@ def updateElement():
 
 def main():
     while True:
-        choise = input("Please specify the action [ C create, U update, D delete, P print,  X exit ] ")
-        match choise:
+        choice = input("Please specify the action [ C create, U update, D delete, P print,  X exit ] ")
+        match choice:
             case "C" | "c":
                 print("New element will be created:")
                 addNewElement()
@@ -95,7 +95,7 @@ def main():
                 print("Exit()")
                 break
             case _:
-                print("Wrong choise")
+                print("Wrong choice")
 
 
 main()

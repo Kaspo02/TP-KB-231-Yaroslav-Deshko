@@ -18,3 +18,8 @@ add solution lab_01
 
 add folder topic_4
 add solution topic_04
+
+# 2024-11-07
+
+add folder topic_5
+add solution topic_05
