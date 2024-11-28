@@ -47,4 +47,4 @@ while True:
         break
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
-        logger.info(f"An unexpected error occurred: {e}")
+        logger.error(f"An unexpected error occurred: {e}")
