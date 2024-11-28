@@ -23,3 +23,8 @@ add solution topic_04
 
 add folder topic_5
 add solution topic_05
+
+# 2024-11-28
+
+add folder topic_6
+add solution topic_06
