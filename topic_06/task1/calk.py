@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(
     filename="topic_06/task1/log",
     filemode="a",
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    format="%(asctime)s - %(levelname)s - %(message)s",
     level=logging.INFO
 )
 
