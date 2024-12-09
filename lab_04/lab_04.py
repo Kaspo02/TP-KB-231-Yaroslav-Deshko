@@ -91,7 +91,7 @@ def main():
             for token in postfix:
                 s = s + token + " "
         
-            print(f"Postfix: [{s}]")
+            print(f"ЗПН: [{s}]")
             
             try:
                 result = evaluatePostfix(postfix)
